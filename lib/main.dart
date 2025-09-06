@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sdca_it_elect4_flutter/screens/home_screen.dart';
 
   void main() {
    runApp(App());
@@ -7,11 +8,8 @@ import 'package:flutter/material.dart';
 class App extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
-  Scaffold homepage = Scaffold(
-    appBar: AppBar(title: Text('Homepage'))
-  );
     return MaterialApp(
-      home: homepage,
+      home: HomeScreen(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.red,
